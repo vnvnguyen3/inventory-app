@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Inventory Homepage</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+</head>
+<body>
+<div class="container">
+	<div>	
+		<h1>Welcome to Inventory App</h1>
+	</div>
+	<div class="p-2">
+		<a class="h2" th:href="@{/categories}">List Categories</a>
+	</div>
+	<div class="p-2">
+		<a class="h2" th:href="@{/categories/new}">Create Category</a>
+	</div>
+	<div class="p-2">
+		<a class="h2" th:href="@{/products}">List Products</a>
+	</div>
+	<div class="p-2">
+		<a class="h2" th:href="@{/products/new}">Create Product</a>
+	</div>
+	<div class="p-2">
+		<a class="h2" th:href="@{/brands}">List Brands</a>
+	</div>
+	<div class="p-2">
+		<a class="h2" th:href="@{/brands/new}">Create Brand</a>
+	</div>
+	<div class="p-2">
+		<a class="h2" th:href="@{/users}">List Users</a>
+	</div>
+	<div class="p-2">
+		<a class="h2" th:href="@{/users/new}">Create User</a>
+	</div>
+</div>
+</body>
+</html>
